@@ -54,13 +54,13 @@ The project includes the following core sections:
 
 Follow these steps to run the app locally:
 
-/Weather_App
-│
-├── index.html # Main HTML file
-├── style.css # CSS for styling the app
-├── script.js # JavaScript to fetch and display weather data
-└── README.md # Project documentation
+Weather_App
+- `index.html` – Main HTML page
+- `style.css` – Stylesheet for UI layout
+- `script.js` – JavaScript logic to handle search and API fetch
+- `README.md` – This documentation
 
+  
 ## ⚙️ Setup Instructions
 - Clone the repository or download the ZIP.
 - Replace the API key in `script.js` with your own WeatherAPI key.
