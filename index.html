@@ -7,51 +7,38 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container"> <!--Container start-->
 
-    <div class="weather_container"> <!--weather container start-->
+  <div class="container"> <!-- Main container -->
 
-      <div class="temp"> <!--Temperature start-->
+    <div class="weather_container"> <!-- Weather display area -->
 
+      <div class="temp"> <!-- Temperature display -->
         <p>23</p>
+      </div>
 
-      </div> <!--Temperature close-->
-
-      <div class="location_time"> <!--Location and time start-->
-
-        <p>delhi</p>
+      <div class="location_time"> <!-- Location and time -->
+        <p>Delhi</p>
         <span>12:58 - Monday 2025-07-21</span>
-        <p></p>
+      </div>
 
-      </div> <!--location and time close-->
-
-      <div class="condition"> <!--weather condition-->
-
+      <div class="condition"> <!-- Weather condition -->
         <p>
-          <!--need to insert image for weather condition-->
+          <!-- Optional: image/icon for weather condition -->
         </p>
+        <p>Mist</p>
+      </div>
 
-        <p>
-          Mist
-        </p>
+    </div> <!-- End of weather_container -->
 
-      </div> <!--weather condition close-->
+    <nav> <!-- Search bar -->
+      <form>
+        <input type="text" placeholder="Search for a Location" class="search_area"/>
+        <button type="submit">Search</button>
+      </form>
+    </nav>
 
-    </div> <!--weather container close-->
+  </div> <!-- End of container -->
 
-    <nav> <!--Search bar and search button start-->
-
-    <form>
-      <input type="text" placeholder="Search for a Location" class="search_area"/>
-      <button type="submit">Search Button</button>
-    </form>
-
-  </nav>
-
-  </div> <!--Containers close-->
-
-
+  <script src="script.js"></script>
 </body>
-
-<script src="script.js"></script>
 </html>
